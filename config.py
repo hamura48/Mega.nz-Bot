@@ -3,17 +3,17 @@
 import os
 
 class Config(object):
-    APP_ID = int(os.environ.get("APP_ID", 1234567))
-    API_HASH = os.environ.get("API_HASH", "")
+    APP_ID = int(os.environ.get("APP_ID", 8560623))
+    API_HASH = os.environ.get("API_HASH", "d1f72390990c765e4816e77a1e5a5cfd")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
-    DOWNLOAD_LOCATION = "./NexaBots"
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1536292101").split())
+    DOWNLOAD_LOCATION = "./megafiles/"
     IS_PUBLIC_BOT = os.environ.get("IS_PUBLIC_BOT", "False")
-    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL", -1234567))
+    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL", -489))
     TG_MAX_SIZE = 2040108421
     # Mega User Account
-    MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "")
-    MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "")
+    MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "likeracademy@gmail.com")
+    MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "r72450162")
 
 # Text Prints
 B_START_TEXT = """
